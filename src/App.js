@@ -1,26 +1,50 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component {
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+
+            joke: '',
+
+        }
+
+        this.fetchJoke = this.fetchJoke.bind(this);
+
+    }
+
+
+    fetchJoke = () => {
+        fetch("https://icanhazdadjoke.com/", {
+            method: "GET",
+            headers: {
+                Accept: "application/json"
+            }
+        })
+            .then(res => res.json())
+            .then(json => {
+                this.setState({ joke: json.joke })
+
+            });
+    };
+
+    componentDidMount = () => {
+        this.fetchJoke();
+    }
+
+    render() {
+
+
+
+        return (
+            <div>
+                <button onClick={this.fetchJoke}>tell me a joke</button>
+                <p>{this.state.joke}</p>
+            </div>
+        )
+    }
 }
 
-export default App;
+
