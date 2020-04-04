@@ -1,0 +1,30 @@
+
+
+
+.container {
+    padding-top:30px;
+    text-align: center;
+  
+}
+
+.search-bar {
+    padding: 8px 15px;
+    width: 80%;
+    outline: none;
+}
+
+.btns {
+padding: 20px;
+outline: none;
+}
+
+.btn1 {
+padding: 8px 28px;
+margin: 0px 15px;
+}
+
+.btn2 {
+margin: 0px 15px;    
+padding: 8px;
+}
+
