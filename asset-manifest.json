@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tellmeajoke/static/css/main.7dc09c13.chunk.css",
+    "main.js": "/tellmeajoke/static/js/main.6c31f4ef.chunk.js",
+    "main.js.map": "/tellmeajoke/static/js/main.6c31f4ef.chunk.js.map",
+    "runtime-main.js": "/tellmeajoke/static/js/runtime-main.862a1ef4.js",
+    "runtime-main.js.map": "/tellmeajoke/static/js/runtime-main.862a1ef4.js.map",
+    "static/js/2.307585c3.chunk.js": "/tellmeajoke/static/js/2.307585c3.chunk.js",
+    "static/js/2.307585c3.chunk.js.map": "/tellmeajoke/static/js/2.307585c3.chunk.js.map",
+    "index.html": "/tellmeajoke/index.html",
+    "precache-manifest.7200cf5e5af7dff88c0ed743358547b4.js": "/tellmeajoke/precache-manifest.7200cf5e5af7dff88c0ed743358547b4.js",
+    "service-worker.js": "/tellmeajoke/service-worker.js",
+    "static/css/main.7dc09c13.chunk.css.map": "/tellmeajoke/static/css/main.7dc09c13.chunk.css.map",
+    "static/js/2.307585c3.chunk.js.LICENSE.txt": "/tellmeajoke/static/js/2.307585c3.chunk.js.LICENSE.txt",
+    "static/media/happy.png": "/tellmeajoke/static/media/happy.120d0eca.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.862a1ef4.js",
+    "static/js/2.307585c3.chunk.js",
+    "static/css/main.7dc09c13.chunk.css",
+    "static/js/main.6c31f4ef.chunk.js"
+  ]
+}
