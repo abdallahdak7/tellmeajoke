@@ -1,7 +1,7 @@
 import React from 'react';
 import happy from './happy.png';
 
-console.log(happy);
+console.log(happ y);
 
 function Happy() {
   
